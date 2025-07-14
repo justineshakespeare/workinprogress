@@ -99,7 +99,7 @@ var instructionControl = L.control({ position: 'topright' });
 instructionControl.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info');
     div.innerHTML = '<strong>Instructions:</strong><br>' +
-                    'Select a year from the panel on the right. Then, hover over a state on the map to see the percentage of people working from home in that state for the selected year.';
+                    'Select a year from the panel on the right. Click the pause button if you want to stop the automatic cycling through the years. Then, hover over a state on the map to see the percentage of people working from home in that state for the selected year.';
     div.style.background = 'white';
     div.style.padding = '10px';
     div.style.marginTop = '10px';
