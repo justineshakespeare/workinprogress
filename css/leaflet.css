@@ -638,12 +638,17 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	margin-left: -12px;
 	border-right-color: #fff;
 	}
+
 #abstract {
   font-size: 14px;
   font-weight: normal;
   line-height: 1.6;
   color: #333;
-  padding: 8px;
+  padding: 10px;
+  width: 1100px;       /* narrower width — adjust as needed */
+  height: 300px;      /* taller height — adjust as needed */
+  overflow-y: auto;   /* adds scrollbar if content is taller than box */
+
 }
 
 #legend {
